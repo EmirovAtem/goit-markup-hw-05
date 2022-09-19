@@ -384,8 +384,7 @@ h3 {
   align-items: center; 
   justify-content: center;
   border-radius: 50%;  
-  padding: 12px;
-  fill: var(--icon-social-card);
+    fill: var(--icon-social-card);
 }
 .link-icon:hover .svg-icon, .link-icon:focus .svg-icon{
 fill: var(--whight-color);
@@ -593,8 +592,7 @@ fill: var(--whight-color);
 
 /* FOOTER SOCIAL ICON */
 .footer-text {
-  width: 700px;
-  font-size: 14px;
+   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -625,8 +623,7 @@ fill: var(--whight-color);
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: 1px solid #afb1b8;
-  border-radius: 50%; 
+   border-radius: 50%; 
   
    fill: var(--whight-color);  
   background: rgba(255, 255, 255, 0.1);}
