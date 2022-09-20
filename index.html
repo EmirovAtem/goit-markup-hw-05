@@ -70,11 +70,15 @@
           Ефективні рішення для<br/>
           вашого бізнесу
         </h1>
-        <button type="button" class="hero-button pointer">
-          Замовити послугу
-        </button>       
-      </section>
 
+        <button data-modal-open type="button" class="hero-button pointer">
+          Замовити послугу
+        </button>     
+               
+        
+        </div>
+      </section>
+      
       <!-- <h2>НАШІ ПЕРЕВАГИ</h2> -->      
       <section class="section">
         <div class="container">
@@ -520,7 +524,18 @@
          </div>
         </div> 
                  </footer>
+                 <div class="backdrop is-hidden" data-modal>
+                  <div class="modal">
+                    <button class="close-modal" data-modal-close>
+                      <svg class="svgf-icon" width="18" hight="18">
+                        <use href="./images/icomoon/symbol-defs.svg#icon-close-black">
+
+                        </use>
+                      </svg>
+                    </button>
+                          </div>  
+                          </div>
   
-  </body>
+                 <script src="./js/modal.js"></script></body>
 </html>
 
