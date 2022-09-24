@@ -250,7 +250,7 @@ h3 {
   background-color: var(--accent-color);
 
   padding: 10px 32px;
-
+ 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -269,7 +269,9 @@ h3 {
   height: 100%;
 
   background: rgba(0, 0, 0, 0.2);
+opacity: 1;
 
+transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -323,7 +325,7 @@ h3 {
   display: flex;
 }
 .title-list {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -363,7 +365,7 @@ h3 {
   padding-top: 0px;
 }
 .work-title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
