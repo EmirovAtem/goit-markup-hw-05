@@ -536,6 +536,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+.client-link:hover .svgk-icon,
+.client-link:focus .svgk-icon {
+  fill: var(--button-secondary-color);
+}
+
 .client-link {
   width: 170px;
   height: 92px;
@@ -550,19 +555,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+.client-link:hover,
+.client-link:focus {
+  outline: 1px solid var(--button-secondary-color);
+  }
 
 .client-title .client-list:last-child {
   margin-right: 0;
 }
-.client-link:hover .svgk-icon,
-.client-link:focus .svgk-icon {
-  fill: var(--button-secondary-color);
-}
-.client-link:hover,
-.client-link:focus {
-  outline: 1px solid var(--button-secondary-color);
-  border-radius: 4px;
-}
+
 
 /* PORTFOLIO */
 /* portfolio BUTTONS */
@@ -682,7 +683,6 @@ transition-property: box-shadow, color, background-color;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-link:hover .text-action {
-  display: inline-block;
   transform: translateY(0%);
  
 }
@@ -747,9 +747,7 @@ transition-property: box-shadow, color, background-color;
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-link:hover,
 .adress-link:focus {
@@ -765,9 +763,7 @@ transition-property: box-shadow, color, background-color;
   width: 231px;
   height: 81px;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-link-contact:hover,
 .adress-link-contact:focus {
