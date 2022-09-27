@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* * {
+* {
   outline: 2px solid tomato;
-} */
+}
 ul,
 a {
   list-style: none;
@@ -451,6 +451,9 @@ h3 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.comand-list .comand-item:first-child {
+  margin-left: 0;
 }
 /* img класс */
 .comand-img {
