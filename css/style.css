@@ -368,8 +368,8 @@ h3 {
 .list {
   margin-right: 30px;
 }
-/* ЧИМ МИ ЗАЙМАЄМОСЬ */
 
+/* ЧИМ МИ ЗАЙМАЄМОСЬ */
 .work {
   padding-top: 0px;
 }
@@ -398,7 +398,7 @@ h3 {
 
 /* li наименование в списке */
 .work-item {
-  margin-right: 30px;
+  margin-left: 30px;
 }
 .thub {
   position: relative;
@@ -455,6 +455,7 @@ h3 {
 .comand-list .comand-item:first-child {
   margin-left: 0;
 }
+
 /* img класс */
 .comand-img {
   display: block;
