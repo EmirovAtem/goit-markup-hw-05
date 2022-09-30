@@ -21,9 +21,9 @@
   --icon-social-card: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* * {
+* {
   outline: 2px solid tomato;
-} */
+}
 ul,
 a {
   list-style: none;
@@ -394,15 +394,20 @@ h3 {
 }
 .work-img {
   display: block;
+  
 }
 
 /* li наименование в списке */
 .work-item {
-  margin-left: 30px;
+  
 }
 .thub {
   position: relative;
+  margin-left: 30px;
+  
 }
+.work-list .thub:first-child {
+  margin-left: 0;}
 
 .lable {
   font-weight: 700;
